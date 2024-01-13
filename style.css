@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:white;
+    margin: 20px;   
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  h2{
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+  }
+
+  label {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+  }
+
+  input {
+    margin-top: 10px;
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    padding-left: 10px;
+    background-color: rgb(185, 213, 204);
+    color: rgb(255, 255, 255);
+    
+  }
+
+  button {
+    width: 100px;
+    margin-top: 5px;
+    cursor: pointer;
+    background-color: rgb(255, 0, 0);
+  }
+   
+  .first{
+    position: relative;
+    padding-top: 10px;
+    background-image: url("assets/img/bg8.jpg");
+    height: 75vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+}
+    
+  
+
+  #medicine-info {
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+    padding-top:10px;
+    font-size: larger;
+    color: rgb(242, 249, 249);
+    font-weight: bold;
+  }
+
+
+.main {
+    background-image: url("assets/img/bg4.jpeg");
+    height: 95vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    position: relative;
+}
+
+.main .box {
+    height: 95vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.4;
+    position: absolute;
+    top: 0px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    height: 60px;
+    width: 70vw;
+}
+
+nav img {
+    width: 180px;
+    position: relative;
+    z-index: 10;
+}
+
+button {
+    height: 40px;
+    color: white;
+    position: relative;
+    z-index: 10;
+    font-family: Poppins, sans-serif;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btntype1 {
+    width: 100px;
+    background-color: transparent;
+    border: 1;
+    border-color: white;
+    background-color: rgba(0, 0, 0, 0.549);
+}
+
+.btntype2 {
+    width: 80px;
+    background-color: red;
+    padding: 6px 5px;
+}
+
+.btntype3 {
+    font-size: 20px;
+    width: 209px;
+    height: 56px;
+    background-color: red;
+    padding: 6px 5px;
+    border: none;
+}
+
+.input {
+    width: 368px;
+    height: 56px;
+    font-weight: 400;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: rgb(237, 237, 237);
+    padding: 0 24px;
+    border: 2px solid white;
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+input:hover {
+    background-color: rgba(64, 60, 60, 0.5);
+}
+
+.hero {
+    height: calc(100% - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    flex-direction: column;
+    font-family: Poppins, sans-serif;
+    gap: 16px;
+    padding: 0, 30px;
+    text-align: center;
+}
+
+.hero> :nth-child(1) {
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 50;
+    font-size: 18px;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.sepration {
+    height: 10px;
+    background-color: rgb(84, 80, 80);
+}
+
+.last{
+    height: 100px;
+    position: absolute;
+    padding-top: 10px;
+    background-color: rgba(94, 91, 91, 0.147);
+    width: 95vw;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: inherit;
+    color: rgb(236, 115, 17);
+    bottom: 0;
+    padding: 20px;
+   
+}
+
+a {
+    color: rgb(245, 126, 8);
+
+}
+
+a, img {
+    height: 30px;
+    width: 30px;
+    padding: 20px;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+
+  
+}
